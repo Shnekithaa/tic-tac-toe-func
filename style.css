@@ -29,6 +29,7 @@ h1{
 
 .container,.game-display, #result{
     flex-direction: column;
+    text-align: center;
 } 
 .box{
     height: 100px;
@@ -89,7 +90,7 @@ a{
 @media (max-width:600px){
     h1{
         font-size: 52px;
-        -webkit-text-stroke: 2px white;
+        -webkit-text-stroke: 2px #ffffff;
     }
     h3{
         font-size: 25px;
